@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#d4dce6 0%, #6e7379 33.33%, #4b4d51 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 27px;
+}
