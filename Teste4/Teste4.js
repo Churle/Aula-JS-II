@@ -1,21 +1,21 @@
-var numero = prompt("Por favor, digite um número");
+var n = prompt("Por favor, digite um número");
 
-function Aumento(numero) {
-    numero = parseInt(numero);
+function Aumento(n) {
+    n = parseInt(n);
 
-    if (isNaN(numero)) {
+    if (isNaN(n)) {
         alert('Digite um número inteiro');
         return;
     }
 
-    if (numero > 20) {
-        alert('O número inicial já é maior que 20.');
+    if (n >= 19) {
+        alert('O número inicial já é maior ou igual a 20.');
         return;
     }
 
-    var contador = numero;
+    var contador = n;
 
-    while (contador <= 20) {
+    while (contador <= 19) {
         alert(`Vamos à contagem: ${contador}`);
         contador++;
         console.log(contador);
@@ -23,3 +23,5 @@ function Aumento(numero) {
 
     alert('Contagem concluída');
 }
+
+Aumento(n);
